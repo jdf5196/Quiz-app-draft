@@ -1,0 +1,110 @@
+body {
+	background-image: url("Images/CloudBackground.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.heading {
+	text-align: center;
+	font-size: 3em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.questionNumber {
+	text-align:center;
+	font-size:1.25em;
+}
+.image {
+	position:relative;
+	margin-top: 0px;
+	margin-right: 0px;
+	max-height:150px;
+	max-width:150px;
+
+}
+.sun {
+	max-height: 150px;
+	max-width: 150px;
+	margin-top:98px;
+	margin-left:500px;
+}
+.question1 {
+	position:relative;
+	margin-top:-130px;
+	text-align:center;
+}
+.questionText {
+	text-align:center;
+	font-size: 1.5em;
+	font-style: ;
+}
+.answers1 {
+	text-align:center;
+	font-size: 1.25em;
+}
+.radiobutton4 {
+	margin-left:-3px;
+}
+.questionKey {
+	text-align:right;
+	display:block;
+	font-size: 1.25em;
+	margin-top: -180px;
+	margin-right:553px;
+}
+.questionKey ul {
+	list-style: none;
+}
+.questionKey li {
+	margin-top: 10px;
+}
+.button {
+	text-align:center;
+}
+.submitButton {
+	font-size:1.25em;
+}
+.answerBox {
+	text-align:center;
+	max-width:500px;
+	margin: 0px auto;
+	margin-top:0px;
+}
+.answerBox p {
+	max-width: 500px;
+	height: auto;
+	font-size: 1.5em;
+}
+.nextButton {
+	font-size:1.25em;
+}
+@media only screen and (max-width: 1500px) {
+	.sun {
+		margin-left:400px;
+	}
+	.questionKey {
+		margin-right:400px;
+	}
+}
+@media only screen and (max-width: 1250px) {
+	.sun {
+		margin-left:250px;
+	}
+	.questionKey {
+		margin-right:308px;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.sun {
+		margin-left:50px;
+	}
+	.questionKey {
+		margin-right:100px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.sun {
+		margin-left:0px;
+	}
+	.questionKey {
+		margin-right:40px;
+	}
+}
